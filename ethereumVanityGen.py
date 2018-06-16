@@ -3,7 +3,7 @@ from ethereum import utils
 
 def openDictionary():
     with open('dict.txt') as f:
-
+        wordList = f.read().splitlines() 
     
     letterPairs = [['o', '0'], ['i', '1'], ['l', '1'], ['z', '2'], ['s', '5'], ['g', '6'], ['t', '7']]    
 
