@@ -1,8 +1,8 @@
+Bruteforce Ethereum vanity addresses like `0xda66666666c3a809ADA79D93114a3662073cC0`, with ability to search for words from a dictionary and alphanumeric combinations.
+
 # Usage
 ```
-$ python ethVanGen.py -h
-
-usage: Bruteforce Ethereum Vanity Addresses. [-h] [-f FILE] [-r] [-m MIN] [-n] [-e] [-o OUTPUT] [-v]
+Bruteforce Ethereum Vanity Addresses. [-h] [-f FILE] [-r] [-m MIN] [-n] [-e] [-o OUTPUT] [-v]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -16,7 +16,7 @@ optional arguments:
   -v, --verbose         Print out addresses as they are being checked
 ```
 
-To search for words from a file, with some letter replacement (e.g. allow  e to be substituded with 3):
+To search for words from a file, with some letter replacement (e.g. allow  `e` to be substituded with `3`):
 ```
 python ethVanGen.py -r -f FILE
 ```
