@@ -44,7 +44,7 @@ To search for words longer than 4 characters from the default dictionary, with r
 ```
 python ethVanGen.py -r -f dict.txt -m 4 -e
 ...
-0xc0de6c3fbB1966b5433026BB5219CF6a8C306A3f
+0xc0de6c3fbB1966b5433026BB5219CF6a8C306A3f      (c0de)
 ```
 
 
