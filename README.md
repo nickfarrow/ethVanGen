@@ -22,23 +22,30 @@ optional arguments:
   -v, --verbose         Print out addresses as they are being checked
 ```
 
+
+# Examples
 To search for words from a file, with some letter replacement (e.g. allow  `e` to be substituded with `3`):
 ```
 python ethVanGen.py -r -f FILE
 ```
 
+
 To search for more than 6 consecutive numbers in an address
-(e.g. `0xC103A3f79c7b1f12222221bD149653fc448dE7Bf`)
 ```
 python ethVanGen.py -m 6 -n
+...
+0xC103A3f79c7b1f12222221bD149653fc448dE7Bf
 ```
+
 
 To search for words longer than 4 characters from the default dictionary, with replacement, at the start or end of the address:
-(e.g. `0xc0de6c3fbB1966b5433026BB5219CF6a8C306A3f`)
 ```
 python ethVanGen.py -r -f dict.txt -m 4 -e
+0xc0de6c3fbB1966b5433026BB5219CF6a8C306A3f
 ```
 
+
+# Editing Letter Replacements
 To change what letters are replaced (`-r`), edit `ethVanGen.py` and edit the following:
 ```
 replaceOptions = {
