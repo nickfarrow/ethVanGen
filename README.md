@@ -1,5 +1,11 @@
 Bruteforce Ethereum vanity addresses like `0xda66666666c3a809ADA79D93114a3662073cC0`, with ability to search for words from a dictionary and alphanumeric combinations.
 
+# Dependencies
+Requires `ethereum` library:
+```
+python -m pip install ethereum
+```
+
 # Usage
 ```
 Bruteforce Ethereum Vanity Addresses. [-h] [-f FILE] [-r] [-m MIN] [-n] [-e] [-o OUTPUT] [-v]
