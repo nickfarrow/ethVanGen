@@ -24,6 +24,7 @@ parser.add_argument("-v", "--verbose", action='store_true', default=False,
 args = parser.parse_args()
 
 if args.replace:
+            # 'x' in word replaced by any of ['y', 'z', ...]
     replaceOptions = {
             #'a': ['a' ,'4'],
             #'b': ['b','8'],

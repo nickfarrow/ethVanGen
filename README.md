@@ -30,3 +30,20 @@ To search for words longer than 8 characters from the default dictionary, with r
 ```
 python ethVanGen.py -f dict.txt -m 8 -r -e
 ```
+
+To change what letters are replaced (`-r`), edit `ethVanGen.py` and edit the following:
+```
+replaceOptions = {
+    #'a': ['a' ,'4'],
+    #'b': ['b','8'],
+    #'e': ['e', '3'],
+    'g': ['6'],
+    #'i': ['1'],
+    #'l': ['1'],
+    'o': ['0'],
+    's': ['5'],
+    #'t': ['7'],
+    #'z': ['2']
+}
+
+```
