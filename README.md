@@ -1,5 +1,7 @@
 Bruteforce Ethereum vanity addresses like `0xda66666666c3a809ADA79D93114a3662073cC0`, with ability to search for words from a dictionary and alphanumeric combinations.
 
+⚠ **Ethereum is a shitcoin** and this repo is code is super inneficient, check out [niceBit](https://github.com/nickfarrow/niceBit) instead for my Bitcoin vanity address generator.
+
 # Dependencies
 Requires `ethereum` library:
 ```
